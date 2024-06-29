@@ -37,8 +37,8 @@ function InstrumentsListComp({ searchVal, filters }) {
         setCurrentSearchVal(newSearchVal);
 
         let endpoint = newSearchVal
-            ? `http://64.225.104.223:80/searchInstrument?name=${newSearchVal}&page=${newPage}`
-            : `http://64.225.104.223:80/listInstrument?page=${newPage}`;
+            ? `https://buscainstrumentosback.duckdns.org:443/searchInstrument?name=${newSearchVal}&page=${newPage}`
+            : `https://buscainstrumentosback.duckdns.org:443/listInstrument?page=${newPage}`;
 
         console.log("endpoint: " + filters.category);
         const params = [];

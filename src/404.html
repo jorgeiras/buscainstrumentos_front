@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Page Not Found</title>
+  <script type="text/javascript">
+    // Redirect to the current path
+    var path = window.location.pathname;
+    var newPath = path.replace(/^\/buscainstrumentos_front/, "");
+    window.location.replace("/buscainstrumentos_front" + newPath);
+  </script>
+</head>
+<body>
+  <p>Redirecting...</p>
+</body>
+</html>

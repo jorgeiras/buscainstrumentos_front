@@ -10,8 +10,8 @@
       var newPath = path.replace(/^\/buscainstrumentos_front/, "");
       window.location.replace("/buscainstrumentos_front" + newPath);
     } else {
-      // Serve the main entry point of your SPA
-      window.location.replace("/buscainstrumentos_front");
+      // Serve the main entry point of your SPA with the current path
+      window.location.replace("/buscainstrumentos_front" + path);
     }
   </script>
 </head>

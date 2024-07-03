@@ -4,11 +4,14 @@
   <meta charset="UTF-8">
   <title>Page Not Found</title>
   <script type="text/javascript">
-    // Check if we're already on the /buscainstrumentos_front path
-    if (!window.location.pathname.startsWith('/buscainstrumentos_front')) {
-      // Redirect to the correct path
-      var newPath = '/buscainstrumentos_front' + window.location.pathname;
-      window.location.replace(newPath);
+    // Redirect to the current path
+    var path = window.location.pathname;
+    if (!path.includes("/buscainstrumentos_front/")) {
+      var newPath = path.replace(/^\/buscainstrumentos_front/, "");
+      window.location.replace("/buscainstrumentos_front" + newPath);
+    } else {
+      // Serve the main entry point of your SPA
+      window.location.replace("/buscainstrumentos_front");
     }
   </script>
 </head>

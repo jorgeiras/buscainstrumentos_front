@@ -4,10 +4,12 @@
   <meta charset="UTF-8">
   <title>Page Not Found</title>
   <script type="text/javascript">
-    // Redirect to the current path
-    var path = window.location.pathname;
-    var newPath = path.replace(/^\/buscainstrumentos_front/, "");
-    window.location.replace("/buscainstrumentos_front" + newPath);
+    // Check if we're already on the /buscainstrumentos_front path
+    if (!window.location.pathname.startsWith('/buscainstrumentos_front')) {
+      // Redirect to the correct path
+      var newPath = '/buscainstrumentos_front' + window.location.pathname;
+      window.location.replace(newPath);
+    }
   </script>
 </head>
 <body>

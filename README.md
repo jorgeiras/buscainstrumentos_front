@@ -1,6 +1,6 @@
 # BuscaInstrumentos Frontend
 <div align="center">
-  <img src="https://github.com/jorgeiras/buscainstrumentos_front/blob/main/images/buscainstrumentoslogo.png" alt="frontend Logo">
+  <img src="https://github.com/jorgeiras/buscainstrumentos_front/blob/master/images/buscainstrumentoslogo.png" alt="frontend Logo">
 </div>
 
 ### Description

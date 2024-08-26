@@ -62,4 +62,6 @@ This project uses GitHub Actions to automate the deployment process. The workflo
 This CI/CD process ensures that every change pushed to the `main` branch is automatically built and deployed, keeping the live version of the application up to date with the latest code changes.
 
 ### Contact
-
+For more information or inquiries, you can reach me on LinkedIn or via email:
+- **LinkedIn**: (www.linkedin.com/in/jorge-alonso-urrutia-544022261)
+- **Email**: [alonsourrutia.jor@gmail.com](mailto:alonsourrutia.jor@gmail.com)

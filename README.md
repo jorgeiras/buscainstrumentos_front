@@ -1,4 +1,7 @@
 # BuscaInstrumentos Frontend
+<div align="center">
+  <img src="https://github.com/jorgeiras/buscainstrumentos_front/blob/main/images/buscainstrumentoslogo.png" alt="frontend Logo">
+</div>
 
 ### Description
 This repository contains the frontend application for the BuscaInstrumentos project. Built with React and Vite, it provides a user-friendly interface for searching and browsing musical instruments. The application interacts with the backend service to display data scraped from various online sources.
